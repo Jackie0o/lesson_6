@@ -1,0 +1,130 @@
+/* ====================== Connect the Lato font from Google fonts ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ====================== CCS Properties =============================== */
+body {
+  font-family: "Lato", sans-serif;
+}
+.wrapper {
+  max-width: 810px;
+  margin: 0 auto 60px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+}
+.main > * {
+  margin: 0 0 24px 0;
+}
+.header {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  padding: 45px 0;
+  margin: 0 0 40px 0;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e212c;
+}
+.main-image {
+  margin: 0 0 60px 0;
+}
+.main-image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.text-item {
+  margin: 0 0 26px 0;
+}
+.main-text.text-main {
+  margin: 0 0 48px 0;
+}
+.main-text.bold.text-main {
+  padding: 0 0 0 58px;
+  margin: 0 0 48px 0;
+}
+.main-list {
+  padding: 0 0 0 32px;
+}
+.main-list li {
+  margin: 0 0 4px 0;
+}
+.main-text-last {
+  margin: 0 0 60px 0;
+}
+.footer {
+  max-width: 336px;
+  margin: 0 auto;
+}
+.footer img {
+  max-width: 60px;
+}
+.footer h2 {
+  display: inline-block;
+  max-width: 216px;
+}
+.home-work > * {
+  margin: 0 0 24px 0;
+}
+.home-work h2 {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+  border-right: 5px double rgb(133, 245, 6);
+  border-left: 10px dashed rgba(18, 6, 245, 0.194);
+  border-top: 7px dotted rgb(255, 2, 2);
+  border-bottom: 15px solid rgb(1, 234, 255);
+  border-radius: 49% 51% 14% 86% / 14% 45% 55% 86%;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.home-work h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  outline: 5px solid rgb(133, 245, 6);
+}
+.home-work li {
+  border: 1px solid #000;
+  margin: 0 0 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.home-work-item {
+  height: 100px;
+  background-color: #d2fa1f;
+  overflow: scroll;
+}
+.home-work-item + p {
+  background-color: #f814a1;
+  max-height: 50px;
+  overflow: hidden;
+}
+.home-work-list .list-item {
+  min-height: 250px;
+  text-align: justify;
+  background-color: #16a2ff;
+  width: 550px;
+  overflow: auto;
+  opacity: 0.5;
+}
+.list-item + li {
+  display: none;
+}
+.list li {
+  display: inline;
+  border: none;
+}
+.home-work-img {
+  border-radius: 50%;
+  max-width: 100%;
+  box-shadow: 12px -12px 17px #0a5e4e, -12px 12px 17px #26ffff;
+}
+.list-item-second {
+  visibility: hidden;
+}
